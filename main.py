@@ -18,7 +18,7 @@ app = Application(
 # set the topic name. In this case the topc that's available on the public Kafka.
 input_topic = app.topic("demo-onboarding-prod-chat", value_deserializer="json")
 # (note: the public Kafka is readonly, enable the output topic for your own Kafka)
-output_topic = app.topic("my_output_topic")
+# output_topic = app.topic("my_output_topic")
 
 sdf = app.dataframe(input_topic)
 
