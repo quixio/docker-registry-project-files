@@ -1,6 +1,6 @@
 # Transformation template
 
-This sample demonstrates how to use [Quix Streams](https://github.com/quixio/quix-streams) to connect to Kafka and use a hopping window to process the data.
+This sample was created for inclusion in the Docker Registry and demonstrates how to use [Quix Streams](https://github.com/quixio/quix-streams) to connect to Kafka and use a hopping window to process the data.
 
 This example assumes the data will contain a field called `my_value`.
 
