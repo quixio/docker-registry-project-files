@@ -4,8 +4,6 @@ The official Docker image for processing data in Kafka with Python using Quix St
 
 This application demonstrates how to process data in Kafka with Python using [Quix Streams](https://quix.io/docs/quix-streams/introduction.html). It uses data in a publicly available read-only Kafka cluster and illustrates how to process the data with a stateful hopping window operator.
 
-This application assumes the data will contain a field called `my_value`.
-
 You can adapt this code to suit your needs.
 
 ## How to run
