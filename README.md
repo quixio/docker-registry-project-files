@@ -1,6 +1,10 @@
-# Quix Streams Processor example
+# Process data in Kafka with Python using Quix Streams
 
-This sample was created for inclusion in the Docker Registry and demonstrates how to use [Quix Streams](https://github.com/quixio/quix-streams) to connect to Kafka and use a hopping window to process the data.
+The official Docker image for processing data in Kafka with Python using Quix Streams
+
+This application demonstrates how to process data in Kafka with Python using [Quix Streams](https://quix.io/docs/quix-streams/introduction.html). It uses data in a publicly available read-only Kafka cluster and illustrates how to process the data with a stateful hopping window operator.
+
+This application assumes the data will contain a field called `my_value`.
 
 You can adapt this code to suit your needs.
 
@@ -10,14 +14,24 @@ You can adapt this code to suit your needs.
  - Install the requirements: `pip install -r requirements.txt`
  - Run `main.py`: `python main.py` (`python3` on Mac)
 
-To get started with running projects like this localls [read the docs](https://quix.io/docs/quix-cli/overview.html).
+To get started with running projects like this locally [read the docs](https://quix.io/docs/quix-cli/overview.html).
+
+## Resources
+
+[Quix Streams Quick Start](https://quix.io/docs/get-started/quix-start.html)
+[Quix CLI Quick Start](https://quix.io/docs/quix-cli/cli-quickstart.html)
+[Quix Cloud Quick Start](https://quix.io/docs/quix-cloud/quickstart.html)
+
+## Template gallery
+
+Visit Quix [YouTube](https://www.youtube.com/@QuixStreams) or Quix Community [Slack](https://quix.io/slack-invite?_gl=1*x8ux8c*_gcl_au*MTQ2NjM5MDQ2OS4xNzE3NTE4ODI5*_ga*MTA3MDczODk0LjE3MTc1MTg4Mjk.*_ga_BFBHQ33YP1*MTcyMTExODAzNS40NC4xLjE3MjExMTgzNjIuMC4wLjA.&_ga=docker_reg_1) to learn more about developing real-time data pipelines with Kafka and Python.
 
 ## Contribute
 
-We welcome contrinutions, please contact us for a t-shirt or recognition on our community [Slack](https://quix.io/slack-invite?_gl=1*x8ux8c*_gcl_au*MTQ2NjM5MDQ2OS4xNzE3NTE4ODI5*_ga*MTA3MDczODk0LjE3MTc1MTg4Mjk.*_ga_BFBHQ33YP1*MTcyMTExODAzNS40NC4xLjE3MjExMTgzNjIuMC4wLjA.&_ga=docker_reg_1).
+We welcome contributions, see the [contribution guide](https://github.com/quixio/quix-streams/blob/main/CONTRIBUTING.md) and join the community [Slack](https://quix.io/slack-invite?_gl=1*x8ux8c*_gcl_au*MTQ2NjM5MDQ2OS4xNzE3NTE4ODI5*_ga*MTA3MDczODk0LjE3MTc1MTg4Mjk.*_ga_BFBHQ33YP1*MTcyMTExODAzNS40NC4xLjE3MjExMTgzNjIuMC4wLjA.&_ga=docker_reg_1).
 
 ## Open source
 
-This project is open source under the Apache 2.0 license and available in our [GitHub](https://github.com/quixio/quix-samples) repo.
+This project is open source under the Apache 2.0 license and available in [GitHub](https://github.com/quixio/quix-streams).
 
-Please star us and mention us on social to show your appreciation.
+Star and share the repo to show your appreciation.
